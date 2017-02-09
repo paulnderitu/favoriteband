@@ -1,17 +1,38 @@
-h1{
-  color:red;
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+h1 {
+  color: red;
   text-align: center;
 }
-h2{
-  color:green;
+
+h2 {
+  color: green;
 }
-.intro{
+
+.intro {
   color: red;
   font-family: sans-serif;
   width: 50%;
 }
-.sidbar{
-  width: 30%;
-  float: right;
+
+.sidebar {
+  position: absolute;
+  /*width: 30%;*/
+  top: 0;
+  bottom: 0;
+  left: 70%;
+  right: 0;
+  /*float: right;*/
   background-color: green;
+}
+
+.main {
+  width: 70%;
 }
